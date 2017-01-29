@@ -18,12 +18,12 @@ variable "ami" {
 variable "key_name" {
     description = " ssh access key name "
     #default = "cloudera_training"
-    #default = "reporting_cluster_key"
+    default = "reporting_cluster"
 }
 
 variable "local_key_file" {
     description = " local ssh file "
-    default = "reporting_cluster_key.pem"
+    default = "reporting_cluster.pem"
 }
 
 variable "my_rootdir" {
