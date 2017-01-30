@@ -57,7 +57,7 @@ After 5 minutes, the script will complete (ignore the following error)**
 
 2) Connect to *dn1elephant* and run `CM_configure_host.sh`, and plug in the *private ip addresses*.
 
-        jpacerqueira@localhost:tools$ ssh -i ../terraform/templates/cloudera_training.key training@dn1elephant
+        jpacerqueira@localhost:tools$ ssh -i ../terraform/templates/dummy_reporting.key training@dn1elephant
         training@dn1elephant:~$ CM_config_hosts.sh 
 
 3) Install CDH to your desired stage in your lab (the scripts may take 5-20 mins to complete)  
